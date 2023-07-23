@@ -1,0 +1,113 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pet",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "FeedPetIntent",
+          "samples": [
+            "alimentar {pet}",
+            "dar comida para {pet}",
+            "alimente {pet}",
+            "dar ração para {pet}",
+            "dar ração a {pet}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ListSchedulesIntent",
+          "samples": [
+            "quais os agendamentos disponíveis",
+            "quais são os horários disponíveis",
+            "quais horários estão disponíveis",
+            "mostrar os agendamentos disponíveis",
+            "mostre os horários disponíveis"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ScheduleIntent",
+          "samples": [
+            "agendar alimentação"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BajulacaoIntent",
+          "samples": [
+            "qual nota eu mereço",
+            "que nota eu mereço",
+            "qual menção eu mereço",
+            "me dê uma nota",
+            "me dá uma nota"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StatusIntent",
+          "samples": [
+            "des",
+            "qual é o status atual",
+            "verificar o status"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "pet",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "LastFeedIntent",
+          "samples": [
+            "quando {pet} comeu",
+            "qual foi a última vez que {pet} comeu",
+            "quando {pet} se alimentou",
+            "{pet} comeu",
+            "informação de alimentação do {pet}",
+            "mostrar última alimentação do {pet}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "pet",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "IAIntent",
+          "samples": [
+            "sugerir alimentação para {pet}",
+            "qual a melhor alimentação para {pet}",
+            "sugerir alimentações otimizadas para {pet}",
+            "alimentações otimizadas para {pet}",
+            "alimentação otimizada para {pet}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "alimentador"
+    }
+  }
+}
